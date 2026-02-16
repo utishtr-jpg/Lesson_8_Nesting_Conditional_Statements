@@ -11,11 +11,11 @@ elif(units<=100):
     surcharge=35
 
 elif(units<=200):
-    amount=130+162.50((units-100)*5.26)
+    amount=130+162.50 + ((units-100)*5.26)
     surcharge=45
 
 else:
-    amount=130+162.50+526((units-200)*8.45)
+    amount=130+162.50+526 + ((units-200)*8.45)
     surcharge=75
 
 total=amount+surcharge
